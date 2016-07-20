@@ -1,0 +1,5 @@
+exportPattern("^[[:alpha:]]+")
+
+import(BinNonNor, BinOrdNonNor, GenOrd, moments, mvtnorm, psych)
+
+importFrom("stats", "cor", "ecdf", "qnorm", "quantile")
