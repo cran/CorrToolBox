@@ -10,7 +10,7 @@ pps2ps <- function (pps, ord.var, cont.var, cats, p=NULL, cutpoint=NULL) {
     if(min(p)<=0 | max(p)>=1) {
       stop("Elements of p for distribution 1 must be between 0 and 1.")
     }   
-    if(sum(p)!=1) {
+    if(sum(p)>(1+.Machine$double.eps^0.5) | sum(p)<(1-.Machine$double.eps^0.5)) { #tolerance added for use across platforms
       stop('Marginal probabilities must sum to 1.') 
     }
     if(length(p)!=length(cats)) {

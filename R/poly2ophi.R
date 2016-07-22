@@ -6,10 +6,10 @@ poly2ophi <- function(polycorr, dist1, dist2) {
   if(min(dist2$p)<=0 | max(dist2$p)>=1) {
     stop("Elements of p for distribution 2 must be between 0 and 1.")
   }
-  if(sum(dist1$p)!=1) {
+  if(sum(dist1$p)>(1+.Machine$double.eps^0.5) | sum(dist1$p)<(1-.Machine$double.eps^0.5)) { #tolerance added for use across platforms
     stop('Marginal probabilities for distribution 1 must sum to 1.') 
   }
-  if(sum(dist2$p)!=1) {
+  if(sum(dist2$p)>(1+.Machine$double.eps^0.5) | sum(dist2$p)<(1-.Machine$double.eps^0.5)) {
     stop('Marginal probabilities for distribution 2 must sum to 1.') 
   }
   if(is.null(dist1$skewness) | is.null(dist1$exkurtosis) | is.null(dist1$p)) {

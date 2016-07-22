@@ -6,10 +6,10 @@ corrZ2ophi<-function(corrZ, p1, p2) {
   if(min(p2)<=0 | max(p2)>=1) {
     stop("Elements of p for distribution 2 must be between 0 and 1.")
   }
-  if(sum(p1)!=1) {
+  if(sum(p1)>(1+.Machine$double.eps^0.5) | sum(p1)<(1-.Machine$double.eps^0.5)) { #tolerance added for use across platforms
     stop('Marginal probabilities for distribution 1 must sum to 1.') 
   }
-  if(sum(p2)!=1) {
+  if(sum(p2)>(1+.Machine$double.eps^0.5) | sum(p2)<(1-.Machine$double.eps^0.5)) {
     stop('Marginal probabilities for distribution 2 must sum to 1.') 
   }
   

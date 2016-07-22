@@ -3,7 +3,7 @@ ordY<-function(mp, cat, y) {
   if(min(mp)<=0 | max(mp)>=1) {
     stop("Marginal probabilities must be between 0 and 1.")
   }   
-  if(sum(mp)!=1) {
+  if(sum(mp)>(1+.Machine$double.eps^0.5) | sum(mp)<(1-.Machine$double.eps^0.5)) { #tolerance added for use across platforms
     stop('Marginal probabilities must sum to 1.') 
   }
   if(length(mp)!=length(cat)) {
