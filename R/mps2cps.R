@@ -12,8 +12,10 @@ mps2cps<-function(mps) {
   cps<-list()
   for(j in 1:length(mps)) {
     cps[[j]]<-mps[[j]][1]
-    for(i in 2:(length(mps[[j]])-1)) {
-      cps[[j]][i]<-cps[[j]][i-1]+mps[[j]][i]
+    if(length(mps[[j]])>2) {
+      for(i in 2:(length(mps[[j]])-1)) {
+        cps[[j]][i]<-cps[[j]][i-1]+mps[[j]][i]
+      }
     }
   }
   return(cps)
