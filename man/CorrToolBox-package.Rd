@@ -18,8 +18,8 @@ Within each correlation transition function, the correlation boundaries for the 
 \tabular{ll}{
 Package: \tab CorrToolBox\cr
 Type: \tab Package\cr
-Version: \tab 1.2\cr
-Date: \tab 2016-09-29\cr
+Version: \tab 1.3\cr
+Date: \tab 2017-01-25\cr
 License: \tab GPL-2 | GPL-3\cr
 }}
 \author{

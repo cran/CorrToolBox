@@ -1,4 +1,4 @@
-6c2ba5d95f80dc98812e201936905103 *DESCRIPTION
+e338610d8a50a917e1484b1493be74a8 *DESCRIPTION
 8dd4fb35af660119a6c26dcb6f5b2b73 *NAMESPACE
 c830c7d433dc4449f45630c9db934d69 *R/bs2pbs.R
 b6e43be93929d7b37986c5645550b4ab *R/corrY2corrZ.R
@@ -15,7 +15,7 @@ d8fe94a09292a067a24dc92b219223f2 *R/pbs2bs.R
 dab4b3c96439f2f09ecf76cb430c31ad *R/pps2ps.R
 0260cc8939e1f6cea7f67c90339fc0c4 *R/ps2pps.R
 a42c0bc1d4ff1105a85ddf2247a65280 *R/tet2phi.R
-9338946ae80be5e76795c767f8491d88 *man/CorrToolBox-package.Rd
+05786ee5ed3c30e6f416b318ddca2a9a *man/CorrToolBox-package.Rd
 d7bb9af080db29da8cffdffa66f7da89 *man/bs2pbs.Rd
 d78d5a714f4117006a1f828e65000d96 *man/corrY2corrZ.Rd
 bbe1717bfa2d75ce4eef8fd8f9d73f6f *man/corrZ2corrY.Rd
