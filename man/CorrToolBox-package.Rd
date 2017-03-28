@@ -18,8 +18,8 @@ Within each correlation transition function, the correlation boundaries for the 
 \tabular{ll}{
 Package: \tab CorrToolBox\cr
 Type: \tab Package\cr
-Version: \tab 1.3\cr
-Date: \tab 2017-01-25\cr
+Version: \tab 1.4\cr
+Date: \tab 2017-03-28\cr
 License: \tab GPL-2 | GPL-3\cr
 }}
 \author{
@@ -28,15 +28,17 @@ Rawan Allozi, Hakan Demirtas
 Maintainer: Rawan Allozi <ralloz2@uic.edu>
 }
 \references{
-Demirtas, H. and Hedeker, D. (2011). A practical way for computing approximate lower and upper correlation bounds. \emph{The American Statistician}, \bold{65(2)}, 104-109.
-
-Demirtas, H., Hedeker, D., and Mermelstein, R. J. (2012). Simulation of massive public health data by power polynomials. \emph{Statistics in Medicine}, \bold{31(27)}, 3337-3346.
-
 Demirtas, H. (2016). A note on the relationship between the phi coefficient and the tetrachoric correlation under nonnormal underlying distributions. \emph{The American Statistician}, \bold{70(2)}, 143-148.
+
+Demirtas, H., Ahmadian, R., Atis, S., Can, F.E., and Ercan, I. (2016). A nonnormal look at polychoric correlations: modeling the change in correlations before and after discretization. \emph{Computational Statistics}, \bold{31(4)}, 1385-1401.
+
+Demirtas, H. and Hedeker, D. (2011). A practical way for computing approximate lower and upper correlation bounds. \emph{The American Statistician}, \bold{65(2)}, 104-109.
 
 Demirtas, H. and Hedeker, D. (2016). Computing the point-biserial correlation under any underlying continuous distribution. \emph{Communications in Statistics-Simulation and Computation}, \bold{45(8)}, 2744-2751.
 
-Demirtas, H., Ahmadian, R., Atis, S., Can, F.E., and Ercan, I. (2016). A nonnormal look at polychoric correlations: modeling the change in correlations before and after discretization. Forthcoming in \emph{Computational Statistics}.
+Demirtas, H., Hedeker, D., and Mermelstein, R. J. (2012). Simulation of massive public health data by power polynomials. \emph{Statistics in Medicine}, \bold{31(27)}, 3337-3346.
+
+Demirtas, H. and Vardar-Acar, C. (2017). Anatomy of correlational magnitude transformations in latency and discretization contexts in Monte-Carlo studies. In ICSA Book Series in Statistics, John Dean Chen and Ding-Geng (Din) Chen (Eds): \emph{Monte-Carlo Simulation-Based Statistical Modeling}. Singapore: Springer, 59-84.
 
 Ferrari, P.A. and Barbiero, A. (2012). Simulating ordinal data. \emph{Multivariate Behavioral Research}, \bold{47(4)}, 566-589.
 

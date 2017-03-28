@@ -12,9 +12,9 @@ phi2tet(phicoef, dist1, dist2)
 }
 \value{The tetrachoric correlation.}
 \references{
-Demirtas, H. and Hedeker, D. (2011). A practical way for computing approximate lower and upper correlation bounds. \emph{The American Statistician}, \bold{65(2)}, 104-109.
-
 Demirtas, H. (2016). A note on the relationship between the phi coefficient and the tetrachoric correlation under nonnormal underlying distributions. \emph{The American Statistician}, \bold{70(2)}, 143-148.
+
+Demirtas, H. and Hedeker, D. (2011). A practical way for computing approximate lower and upper correlation bounds. \emph{The American Statistician}, \bold{65(2)}, 104-109.
 }
 \seealso{\code{\link{corrZ2corrY}}}
 \examples{
