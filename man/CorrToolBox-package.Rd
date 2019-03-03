@@ -18,14 +18,14 @@ Within each correlation transition function, the correlation boundaries for the 
 \tabular{ll}{
 Package: \tab CorrToolBox\cr
 Type: \tab Package\cr
-Version: \tab 1.5\cr
-Date: \tab 2018-01-10\cr
+Version: \tab 1.6\cr
+Date: \tab 2019-03-02\cr
 License: \tab GPL-2 | GPL-3\cr
 }}
 \author{
-Rawan Allozi, Hakan Demirtas
+Rawan Allozi, Hakan Demirtas, Ran Gao
 
-Maintainer: Rawan Allozi <ralloz2@uic.edu>
+Maintainer: Ran Gao <rgao8@uic.edu>
 }
 \references{
 Demirtas, H. (2016). A note on the relationship between the phi coefficient and the tetrachoric correlation under nonnormal underlying distributions. \emph{The American Statistician}, \bold{70(2)}, 143-148.
