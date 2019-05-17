@@ -1,4 +1,4 @@
-85f6db8a88156da45490355989434c58 *DESCRIPTION
+cb33c71b3dfb8ee2641bc8cd40c752c1 *DESCRIPTION
 8dd4fb35af660119a6c26dcb6f5b2b73 *NAMESPACE
 c830c7d433dc4449f45630c9db934d69 *R/bs2pbs.R
 b6e43be93929d7b37986c5645550b4ab *R/corrY2corrZ.R
@@ -15,10 +15,10 @@ d8fe94a09292a067a24dc92b219223f2 *R/pbs2bs.R
 dab4b3c96439f2f09ecf76cb430c31ad *R/pps2ps.R
 0260cc8939e1f6cea7f67c90339fc0c4 *R/ps2pps.R
 a42c0bc1d4ff1105a85ddf2247a65280 *R/tet2phi.R
-07b5a998b9ec6f8841f774c32a3d85e7 *man/CorrToolBox-package.Rd
+db2774659ac4f32db6fc8a6ba15beff7 *man/CorrToolBox-package.Rd
 d7bb9af080db29da8cffdffa66f7da89 *man/bs2pbs.Rd
 d78d5a714f4117006a1f828e65000d96 *man/corrY2corrZ.Rd
-bbe1717bfa2d75ce4eef8fd8f9d73f6f *man/corrZ2corrY.Rd
+f166d7269ff8274aff3006abbcf12767 *man/corrZ2corrY.Rd
 b531422f361c0297c9988e8f7823b9b0 *man/corrZ2ophi.Rd
 801659bac443c59c02360f2cea567c3d *man/corrZ2phi.Rd
 a5d6b4bce565d388ef8492f2e37ebfc9 *man/mps2cps.Rd

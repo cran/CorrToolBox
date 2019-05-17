@@ -1,7 +1,7 @@
 \name{corrZ2corrY}
 \alias{corrZ2corrY}
 \title{Computation of the Correlation of Bivariate Nonnormal Variables from the Correlation of Bivariate Standard Normal Variables}
-\description{Fleishman coefficients for each nonnormal continuous variable with the specified skewness and excess kurtosis are found. The Fleishman coefficients and correlation of two standard normal variables are used to find the correlation of the two nonnormal variables as seen in Demirtas, Hedeker, and Mermelstein (2012).}
+\description{Fleishman coefficients for each nonnormal continuous variable with the specified skewness and excess kurtosis are found. The Fleishman coefficients and correlation of two standard normal variables are used to find the correlation of the two nonnormal variables as described in Demirtas, Hedeker, and Mermelstein (2012).}
 \usage{
 corrZ2corrY(corrZ, skew.vec, kurto.vec)
 }
